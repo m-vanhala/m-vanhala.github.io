@@ -15,11 +15,14 @@ The first week revolved around the basics of the command line, starting with ins
 + install packages
 + quit applications (which is weirdly complicated)
 + use text editors
+
 The most important commands are
 ```bash
 mv, cat, less, cp, rm, mkdir, ls
 ```
-This stuff was quite basic and easy. The most annoying thing was moving files between Windows and Unix, for which I fortunately wrote a shell script in week 5.
+which are used, respectively, to move, concatenate, display, copy, remove, create directory, and list contents. 
+
+This stuff was quite basic and easy. The most annoying thing was moving files between Windows and Unix, for which I fortunately wrote a shell script on week 5.
 
 ## Week 2
 The second week went deeper into the file system, and introduced us to processes. We also got a brief introduction into remote server use with the CSC servers. The following piece of code is used to connect to puhti servers:
@@ -71,17 +74,72 @@ The Bash syntax is a little silly, and this is mainly because of its strictness 
 ## Week 6
 The sixth week included quite many different subjects. We first learned about installing and updating packages with package managers, then a little bit about Python, and finally how to use Makefiles to gather a bunch of functions.
 
+Some of the most important commands from this week:
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| make      | builds other programs       |
+| apt, brew   | packaging tools for installing programs        |
+| sudo | authorize as root user |
+| pip | install packages in Python for Python |
+
+And we also learned to create virtual environments, which is very convenient so as to avoid conflicts between different versions in different projects and so on. A virtual environment can be created with
+```python
+py -m venv venv\
+```
+and then activated with
+```python
+venv\Scripts\activate
+```
+after which we can install libraries and other stuff normally:
+```python
+python -m pip install <package>
+```
+and finally, when we want to stop working with the virtual environment, we can deactivate it simply with
+```python
+deactivate
+```
+
 ## Week 7
 The seventh week introduced us to version control via Github. We created our own Github accounts and learned how to push and pull code, to use different branches and merge them when needed, and of course, how to reverse things when something goes awry (which is bound to happen every now and then).
 
 
+A screenshot from the Git Tower's [Git cheatsheet](https://www.git-tower.com/blog/git-cheat-sheet):
+
+<img src="assets/images/git_cheatsheet" alt="Screenshot" hspace="20" width="30%" align="center"/>
+
+The basic workflow of creating a new branch, committing, and pushing is then
+```bash
+git checkout -b new_branch
+git add -A
+git commit -m "Informative message"
+git push -u origin new_branch
+```
+where the flag `-u` checks that the local branch equals the remote branch. Additionally we can check the status of the current commit with
+```bash
+git status
+```
+
 Version control is extremely useful. While Overleaf already provides a great way to handle LaTeX code and collaborate, version control goes a little further since it allows pushing different versions of the text to an online repository. The premium version of Overleaf also has a similar feature through the History tab, but Github is more convenient. But most importantly, Github facilitates coding by making it so easy and effortless to code without fearing that some new feature will break the code, since it will always be possible to return to an earlier operative code. I will definitely start using Git for all my projects, whenever possible.
 
 ## Final project
-For the final assignment, we learned to build our own webpages with Github Pages and powered by Jekyll.
+For the final assignment, we learned to build our own webpages with Github Pages and powered by Jekyll. We learned to clone existing templates from Github repositories and modify them, as well as create our own github.io webpage. We can view the webpage locally very simply:
 ```bash
-
+bundle exec jekyll serve
 ```
+after which the site appears locally. We can push the local repository to Github, and the online site is then automatically updated.
+
+Some useful markdown commands:
+
+| Syntax | Output |
+| ----------- | ----------- |
+| `*italics*` | *italics* |
+| `**bold**` | **bold** |
+| `[link text](link)` | [Google](https://www.google.fi/?hl=fi) |
+| `#Big header` | #Big header |
+| `##Smaller header` | ##Smaller header |
+
+Note that the headers do not display properly inside text because they are supposed to be headers, duh.
 
 Webpage building is surprisingly easy. Many webpages look like they are very complicated (and some dynamic pages without a doubt are), but a simple static webpage is really easy to make with Jekyll, and is also very simple with standard HTML techniques. 
 
