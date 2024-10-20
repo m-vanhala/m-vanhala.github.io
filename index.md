@@ -4,24 +4,32 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="assets/images/representative_picture" alt="Photo" hspace="18" width="24%" align="right"/> Welcome to my website! I am a PhD student in Economics at the University of Helsinki. I am interested in industrial organization and applied microeconomics. My current research is focusing on competition in media markets, endogenous product choice, and consumer search.
+
+You can download my CV [here](assets/CV_Vanhala_October_2024.pdf).
 
 ## Find me on
 
-[LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
+[LinkedIn](https://www.linkedin.com/in/mikko-vanhala-9511b31ba/), [GitHub](https://github.com/m-vanhala)
 
 ## Contact
 
-My email address is of the form first_name.last_name@helsinki.fi. 
+You can reach me through mikko (dot) vanhala (at) helsinki (dot) fi. 
 
-## Courses I've Taken
+## Recent courses I've taken
 
-[Enjoying Cheese I](https://courses.helsinki.fi/enjoying-cheese-I), fall 2018
+[Advanced Macroeconomics 4](https://studies.helsinki.fi/courses/course-unit/otm-8133d742-9fdb-48a5-be53-cff0830aeb81/DPE-9318), spring 2024
 
-[Feline Avoidance](https://courses.helsinki.fi/feline-avoidance), fall 2018
+[Advanced Macroeconomics 3](https://studies.helsinki.fi/courses/course-unit/otm-b0f3bee8-6db7-4a00-9110-284a38e79569/ECOM-R319), spring 2024
+
+[Structural Econometrics](https://courses.aalto.fi/s/course/a053X00001RGrltQAD/structural-econometrics-1-d?language=en_US), fall 2023
 
 ## Projects
 
-## Misc. 
+[Command line course](https://github.com/m-vanhala/cmdline-course)
 
-[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
+[Source code for this page](https://github.com/m-vanhala/m-vanhala.github.io)
+
+## Miscellaneous
+
+[Data about movie box office returns](https://www.the-numbers.com/) 
